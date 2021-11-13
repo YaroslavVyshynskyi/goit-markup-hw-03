@@ -84,7 +84,6 @@ body {
 /*---------------------HEADER---------------------*/
 
 .header {
-  background-color: #ffffff;
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -222,7 +221,6 @@ body {
 }
 
 /*---------------------FEATURES---------------------*/
-
 
 .features-title {
   font-weight: 700;
