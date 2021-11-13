@@ -180,6 +180,8 @@ body {
 
 .hero {
   background-color: #2f303a;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 .hero-title {
@@ -191,8 +193,7 @@ body {
   text-transform: uppercase;
   color: var(--title-third-title-color);
   max-width: 696px;
-  padding-top: 213px;
-  margin: 0 auto 45px;
+  margin: 0 auto 30px;
   }
 
 .hero-btn {
@@ -204,18 +205,16 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  background: var(--btn-main-color);
   color: var(--btn-text-color);
+  box-sizing: border-box;
   min-width: 200px;
   min-height: 50px;
   border-radius: 4px;
-  margin: 0 auto 200px;
+  padding: 10px 32px;
+  margin: 0 auto;
   display: block;
-
   }
-
-.hero-btn {
-  background: var(--btn-main-color);
-}
 
 .hero-btn:hover,
 .hero-btn:focus {
@@ -232,7 +231,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-main-color);
-}
+  }
 
 .features-list {
   display: flex;
@@ -264,7 +263,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-main-color);
-  margin-bottom: 59px;
+  margin-bottom: 50px;
 }
 
 .doing-list {
